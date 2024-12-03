@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.learn-resources {
+    margin-top: 30px;
+}
+
+.learn-resources h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.learn-resources p {
+    font-size: 16px;
+    color: #555;
+}
+
+.learn-resources a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.learn-resources a:hover {
+    text-decoration: underline;
+}

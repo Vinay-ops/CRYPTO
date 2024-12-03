@@ -1,0 +1,150 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #f4f4f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+  background: linear-gradient(90deg, rgba(67, 77, 255, 1) 0%, rgba(92, 129, 252, 1) 100%);
+  padding: 20px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li {
+  font-weight: 600;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffdd57;
+}
+
+
+.hero {
+  background: url('https://i.pinimg.com/736x/33/bb/a0/33bba04cb8143b1a24bbd68769377b47.jpg') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+
+.about-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-text {
+  width: 60%;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.about-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.our-values {
+  background: #ffffff;
+  padding: 50px 20px;
+}
+
+.values-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.value-item {
+  width: 250px;
+}
+
+.value-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #4e5b6e;
+}
+
+.value-item p {
+  color: #777;
+}
+
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}

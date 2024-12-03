@@ -1,0 +1,49 @@
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Exp7</title>
+  </head>
+  <body>
+  <h1>
+  </h1>
+  <p>JavaScript can show hidden HTML elements.</p>
+  <p id="demo" style="display:none">Hello JavaScript!</p>
+  <button type="button"
+  onclick="document.getElementById('demo').style.display='block'">Click
+  Me</button>
+  <p id="demo1"></p>
+  <br>
+  <br>
+  <!--THIS IS A ELIF Statement-->
+  <script>
+  let rating = 4;
+  if (rating <= 2) {
+  document.write("Bad rating");
+  }
+  else if (rating >= 4) {
+  document.write("Good rating!");
+  }
+  else {
+  document.write("Average rating");
+  }
+  </script>
+  <br>
+  <br>
+  <script>
+  // this is a loop statement
+  for (let i = 0; i < 5; i++) {
+  document.write(i);
+  }
+  </script>
+  <script>
+   let x = 5;
+// Assign the value 2 to y
+let y = 2;
+// Assign the value x + y to z
+let z = x + y;
+// Display z
+document.getElementById("demo1").innerHTML = "The sum of x + y is: " + z;
+    </script>
+  </body>
+  </html>

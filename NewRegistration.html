@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+        background: url("https://i.pinimg.com/736x/33/bb/a0/33bba04cb8143b1a24bbd68769377b47.jpg");
+background-repeat: no-repeat;
+background-size: 2000px 700px;
+    }
+    </style>
+  <link rel="stylesheet" href="newRegistration.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form id="registrationForm" action="#" method="POST">
+      <div class="input-group">
+        <label for="username">Full Name</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+
+      <div class="input-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+
+      <div class="input-group">
+        <button type="submit" id="submit-btn">Register</button>
+      </div>
+    </form>
+
+    <p id="error-message" class="error"></p>
+  </div>
+
+  <script>
+    document.getElementById('registrationForm').addEventListener('submit', function(event) {
+  event.preventDefault(); 
+
+
+  const username = document.getElementById('username').value;
+  const email = document.getElementById('email').value;
+  const password = document.getElementById('password').value;
+  const confirmPassword = document.getElementById('confirm-password').value;
+  const errorMessage = document.getElementById('error-message');
+
+  
+  errorMessage.textContent = '';
+
+
+  if (password !== confirmPassword) {
+    errorMessage.textContent = 'Passwords do not match!';
+    return;
+  }
+
+  if (username === '' || email === '' || password === '' || confirmPassword === '') {
+    errorMessage.textContent = 'Please fill in all fields.';
+    return;
+  }
+
+
+  alert('Registration successful!');
+  document.getElementById('registrationForm').reset();
+});
+
+  </script>
+</body>
+</html>

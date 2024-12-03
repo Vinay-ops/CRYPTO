@@ -1,0 +1,118 @@
+header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+header h1 {
+    font-size: 28px;
+    color: red;
+}
+header img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+header button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    margin: 5px;
+}
+header button:hover {
+    background-color: #555;
+}
+
+/* Navigation */
+
+
+body { 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+} 
+
+.header { 
+    background-color: #131921; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    padding: 10px 15px; 
+} 
+
+.header a { 
+    color: white; 
+    text-decoration: none; 
+    margin: 0 10px; 
+} 
+
+.header .logo { 
+    font-size: 24px; 
+    font-weight: bold; 
+} 
+
+.header input[type="text"] { 
+    width: 300px; 
+    padding: 8px; 
+    border: none; 
+    border-radius: 5px; 
+} 
+
+.header .nav-links { 
+    display: flex; 
+    margin-left: auto; 
+} 
+
+.header .nav-links a { 
+    padding: 5px 10px; 
+} 
+
+.cart-icon { 
+    font-size: 20px; 
+    margin-left: 15px; 
+
+
+} 
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.crypto-prices h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.crypto-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.crypto-item {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    text-align:center ;
+}
+
+.crypto-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.crypto-item p {
+    font-size: 18px;
+}
+
+.crypto-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
